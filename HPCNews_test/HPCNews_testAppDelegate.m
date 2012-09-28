@@ -11,7 +11,7 @@
 #import "Favorites.h"
 #import "NewsFeed.h"
 #import "FunNews.h"
-#import "HPCmap.h"
+//#import "HPCmap.h"
 #import "NewsFeedWire.h"
 #import "NewsBData.h"
 

@@ -58,7 +58,6 @@
 		21AA2C45145E88FF00BCD448 /* NewsFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AA2C43145E88FF00BCD448 /* NewsFeed.m */; };
 		21AA2C46145E88FF00BCD448 /* NewsFeed.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21AA2C44145E88FF00BCD448 /* NewsFeed.xib */; };
 		21CAA832144BCB99008D53D2 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21CAA831144BCB99008D53D2 /* iAd.framework */; };
-		21CBA15D145F436B0000624E /* HPCmap.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21CBA15B145F436B0000624E /* HPCmap.xib */; };
 		21CBA160145F46210000624E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21CBA15F145F46200000624E /* MapKit.framework */; };
 		21CBA162145F46800000624E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21CBA161145F46800000624E /* CoreLocation.framework */; };
 		21D2A91C1450CF85005BC720 /* NewsstandKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21D2A91B1450CF85005BC720 /* NewsstandKit.framework */; };
@@ -150,7 +149,6 @@
 		21AA2C43145E88FF00BCD448 /* NewsFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsFeed.m; sourceTree = "<group>"; };
 		21AA2C44145E88FF00BCD448 /* NewsFeed.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsFeed.xib; sourceTree = "<group>"; };
 		21CAA831144BCB99008D53D2 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
-		21CBA15B145F436B0000624E /* HPCmap.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HPCmap.xib; sourceTree = "<group>"; };
 		21CBA15F145F46200000624E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		21CBA161145F46800000624E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		21D2A91B1450CF85005BC720 /* NewsstandKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NewsstandKit.framework; path = System/Library/Frameworks/NewsstandKit.framework; sourceTree = SDKROOT; };
@@ -247,7 +245,6 @@
 				2190EF0B14647DFA00F90C3A /* hpcicon@2x.png */,
 				2190EF0C14647DFB00F90C3A /* hpclaunchImage@2x.png */,
 				2190EF0D14647DFC00F90C3A /* iTunesArtwork.png */,
-				21CBA15B145F436B0000624E /* HPCmap.xib */,
 				21DD6A00145F0C5500FC49E4 /* HPCNewsFinderFeed.h */,
 				21DD6A01145F0C5500FC49E4 /* HPCNewsFinderFeed.m */,
 				217417D115F7239500C3FC9A /* HPCNewsFinderBData.h */,
@@ -412,7 +409,6 @@
 				21AA2C3B145E88C100BCD448 /* Favorites.xib in Resources */,
 				21AA2C41145E88E700BCD448 /* FunNews.xib in Resources */,
 				21AA2C46145E88FF00BCD448 /* NewsFeed.xib in Resources */,
-				21CBA15D145F436B0000624E /* HPCmap.xib in Resources */,
 				218D064F1463AB5400E80A05 /* 25-weather.png in Resources */,
 				218D06521463AB9100E80A05 /* 56-cloud.png in Resources */,
 				218D06541463ABA700E80A05 /* 64-zap.png in Resources */,

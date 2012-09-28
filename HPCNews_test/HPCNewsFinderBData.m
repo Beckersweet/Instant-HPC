@@ -231,6 +231,17 @@
         tmp2=[tmp2 replaceAT:@"HPC_Guru"];
         tmp2=[tmp2 replace:@"TACC"];
         tmp2=[tmp2 replaceAT:@"TACC"];
+        tmp2=[tmp2 replace:@"DSP"];
+        tmp2=[tmp2 replaceAT:@"DSP"];
+        tmp2=[tmp2 replace:@"DSPs"];
+        tmp2=[tmp2 replaceAT:@"DSPs"];
+        tmp2=[tmp2 replaceAT:@"Atlanta"];
+         tmp2=[tmp2 replace:@"Atlanta"];
+        tmp2=[tmp2 replaceAT:@"India"];
+        tmp2=[tmp2 replace:@"India"];
+        tmp2=[tmp2 replace:@"Tennessee"];
+        tmp2=[tmp2 replaceAT:@"Tennessee"];
+        
 
     
         NSString *tmp=[tmp2 removeLink3];

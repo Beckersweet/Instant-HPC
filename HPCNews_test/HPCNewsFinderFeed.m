@@ -233,6 +233,14 @@
             tmp2=[tmp2 replaceAT:@"Titan"];
             tmp2=[tmp2 replace:@"Gordon"];
             tmp2=[tmp2 replaceAT:@"Gordon"];
+            tmp2=[tmp2 replace:@"India"];
+            tmp2=[tmp2 replaceAT:@"India"];
+            tmp2=[tmp2 replace:@"DSP"];
+            tmp2=[tmp2 replaceAT:@"DSP"];
+            tmp2=[tmp2 replace:@"DSPs"];
+            tmp2=[tmp2 replaceAT:@"DSPs"];
+            tmp2=[tmp2 replace:@"Tennessee"];
+            tmp2=[tmp2 replaceAT:@"Tennessee"];
             
             
             //   NSLog(@"wire2: %@",tmp2);
@@ -256,6 +264,9 @@
                 currentnews.tweetlink=nil;
                 currentnews.tweet=nil;
             }
+            
+            
+            
 
             if (isHPCnews) {
                  nbtweet++;
@@ -275,12 +286,14 @@
                 
                 if (currentnews.tweetlink == nil && currentnews.tweet != nil) {
                     
-                   isHPCnews = NO;
+                    isHPCnews = NO;
                 }
 
                 
                 // NSLog(@"nbtweet:%d %@",nbtweet,currentnews.tweetlink);
             }
+            
+           
              // NSLog(@"nbtweet:%d %@",nbtweet,currentnews.tweet);
             
             
