@@ -18,7 +18,7 @@
     {
   
 
-        UIFont *locationFont = [UIFont fontWithName:@"CourierNewPS-BoldMT" size:14];
+        UIFont *locationFont = [UIFont fontWithName:@"CourierNewPS-BoldMT" size:16];
        UIFont *locationFont2 = [UIFont fontWithName:@"Arial" size:8];
  
         tweetLabel=[[UILabel alloc] initWithFrame:CGRectMake(15, 8, 270, 100)];
@@ -39,6 +39,11 @@
         [self.contentView addSubview:tweetLabel];
      //   [self.contentView addSubview:tweetLabelDate];
  
+        
+        self.backgroundColor =  [UIColor colorWithPatternImage:[UIImage imageNamed:@"twitter-bird-dark-bgs.png"]];
+        
+        self.tweetLabel.backgroundColor = [UIColor clearColor];
+
     
     }
 

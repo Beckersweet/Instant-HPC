@@ -118,8 +118,8 @@ static const int rowHeight=117;
     [super viewDidLoad];
     self.tableView.rowHeight=rowHeight;
     // [self.navigationItem initWithTitle:@"In The Cloud"];
-    
-    
+  //  self.view.backgroundColor =  [UIColor colorWithPatternImage:[UIImage imageNamed:@"twitter-bird-light-bgs.png"]];
+  //  self.tableView.backgroundColor = [UIColor clearColor];
     
     self.navigationItem.title=@"BigData";
     bannerView = [[ADBannerView alloc] initWithFrame:CGRectZero];

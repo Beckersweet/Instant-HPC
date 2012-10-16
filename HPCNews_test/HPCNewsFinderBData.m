@@ -241,6 +241,8 @@
         tmp2=[tmp2 replace:@"India"];
         tmp2=[tmp2 replace:@"Tennessee"];
         tmp2=[tmp2 replaceAT:@"Tennessee"];
+        tmp2=[tmp2 replace:@"CTO"];
+        tmp2=[tmp2 replaceAT:@"CTO"];
         
 
     
@@ -305,6 +307,13 @@
         
         }
         
+        if(currentnews.tweet==nil || [currentnews.tweet isEqualToString:@""] == TRUE){
+            isHPCnews=NO;
+            currentnews.tweetlink=nil;
+            currentnews.tweet = nil;
+        }
+        
+
              
         
     } else if ([elementName isEqualToString:@"published"]) {
