@@ -259,6 +259,8 @@
          
             currentnews.tweet = [currentnews.tweet removeRT];
             
+            currentnews.tweet = [currentnews.tweet stringByAppendingString:@"via @HPCwire"];
+            
             if(currentnews.tweet==nil || [currentnews.tweet isEqualToString:@""] == TRUE  || [currentnews.tweet isEqualToString:@"@< class=\" href=\""] == TRUE){
                isHPCnews=NO;
                 currentnews.tweetlink=nil;

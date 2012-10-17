@@ -267,6 +267,8 @@
         
        currentnews.tweet = [currentnews.tweet removeRT];
         
+         currentnews.tweet = [currentnews.tweet stringByAppendingString:@"via @datanami"];
+        
         if(currentnews.tweet==nil || [currentnews.tweet isEqualToString:@""] == TRUE){
             isHPCnews=NO;
             currentnews.tweetlink=nil;

@@ -106,7 +106,7 @@
           
          //  NSLog(@"SC_Online: %@",tmp);
          
-            
+             currentnews.tweet = [currentnews.tweet stringByAppendingString:@"via @SC_Online"];
             
         
             if(currentnews.tweet==nil || [currentnews.tweet isEqualToString:@""] == TRUE){

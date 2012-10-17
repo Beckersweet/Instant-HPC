@@ -118,6 +118,9 @@
        
        
             }
+            
+           currentnews.tweet = [currentnews.tweet stringByAppendingString:@"via @insideHPC"];  
+            
            //  NSLog(@"INSIDEHPC: %@",currentstring);
             if (currentnews.tweetlink != nil) {
                 
